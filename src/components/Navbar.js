@@ -2,32 +2,36 @@ import { Link } from "@chakra-ui/next-js";
 import { Flex, Spacer, Box } from "@chakra-ui/react";
 export default function Home() {
 	return (
-		<Flex h="60px" bg="#1c1c1c" alignItems="center">
+		<Flex h="60px" alignItems="center" position="fixed" w="100%" px="3">
 			<Link
+				fontSize="lg"
 				p="18px"
 				href="/"
-				color="blue.400"
-				_hover={{ color: "blue.500" }}
+				color="white"
+				_hover={{ color: "blackAlpha.400" }}
 			>
 				Home
 			</Link>
-			<Spacer />
-			<Link
-				p="18px"
-				href="/about"
-				color="blue.400"
-				_hover={{ color: "blue.500" }}
-			>
-				About
-			</Link>
-			<Link
-				p="18px"
-				href="/login"
-				color="blue.400"
-				_hover={{ color: "blue.500" }}
-			>
-				Login
-			</Link>
+			<Box ml="auto">
+				<Link
+					fontSize="lg"
+					p="18px"
+					href="/about"
+					color="white"
+					_hover={{ color: "blackAlpha.400" }}
+				>
+					About
+				</Link>
+				<Link
+					fontSize="lg"
+					p="18px"
+					href="/login"
+					color="white"
+					_hover={{ color: "blackAlpha.400" }}
+				>
+					Login
+				</Link>
+			</Box>
 		</Flex>
 	);
 }

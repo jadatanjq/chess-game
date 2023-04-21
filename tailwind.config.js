@@ -13,6 +13,10 @@ module.exports = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
 			colors: {
+				nb: {
+					first: "#a0a0a0",
+					second: "#606060",
+				},
 				moonlitAsteroid: {
 					first: "#0F2027",
 					second: "#203A43",
