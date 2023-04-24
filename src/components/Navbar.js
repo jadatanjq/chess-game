@@ -4,8 +4,8 @@ export default function Home() {
 	return (
 		<Flex h="60px" alignItems="center" position="fixed" w="100%" px="3">
 			<Link
-				fontSize="lg"
-				p="18px"
+				fontSize="md"
+				p="10px"
 				href="/"
 				color="white"
 				_hover={{ color: "blackAlpha.400" }}
@@ -14,8 +14,8 @@ export default function Home() {
 			</Link>
 			<Box ml="auto">
 				<Link
-					fontSize="lg"
-					p="18px"
+					fontSize="md"
+					p="10px"
 					href="/about"
 					color="white"
 					_hover={{ color: "blackAlpha.400" }}
@@ -23,8 +23,8 @@ export default function Home() {
 					About
 				</Link>
 				<Link
-					fontSize="lg"
-					p="18px"
+					fontSize="md"
+					p="10px"
 					href="/login"
 					color="white"
 					_hover={{ color: "blackAlpha.400" }}

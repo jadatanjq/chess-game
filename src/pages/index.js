@@ -10,12 +10,12 @@ export default function Home() {
 				bgRepeat="no-repeat"
 				bgSize="cover"
 				h="100vh"
-				p="8"
+				p="60px"
 			>
-				<Container maxW="2xl" color="white" h="100%">
+				<Container maxW="1500px" color="white" h="100%">
 					<Center flexDirection="column" alignItems="start" h="100%">
-						<Text fontSize="5xl">Checky Checky Check Check.</Text>
-						<Text fontSize="3xl">
+						<Text fontSize="4xl">Checky Checky Check Check.</Text>
+						<Text fontSize="2xl">
 							Here, we only play chess with our friends like it's
 							life or death.
 						</Text>
