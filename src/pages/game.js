@@ -1,6 +1,6 @@
-
+import Navbar from "../components/Navbar";
 import { Box, Container, Text, Center } from "@chakra-ui/react";
-export default function Home() {
+export default function Game() {
 	return (
 		<div>
 			<Box

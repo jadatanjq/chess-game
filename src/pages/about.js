@@ -32,10 +32,9 @@ const answers = [
 	},
 ];
 
-export default function Home() {
+export default function About() {
 	return (
 		<div>
-			<Navbar />
 			<Box
 				bgImage="url('/bg-home.jpg')"
 				bgPosition="center"
